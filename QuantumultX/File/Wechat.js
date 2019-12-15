@@ -1,3 +1,7 @@
+/**
+ * @supported 0144020A2910
+ */
+
 /*
 Remove the WeChat public account bottom ad
 
