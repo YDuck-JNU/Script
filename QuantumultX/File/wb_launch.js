@@ -1,3 +1,6 @@
+/**
+ * @supported 0144020A2910
+ */
 /*
 Weibo remove start up ads
 
