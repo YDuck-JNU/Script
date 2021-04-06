@@ -3,4 +3,12 @@
  * @supported 0144020A2910
  */
  
-{"error":{"message":"URL 不存在","code":4040}}
+let body = $response.body
+body=JSON.parse(body)
+body['data'].forEach((element, index)=>{
+     if(element.hasOwnProperty('ad')){      
+       body['data'].splice(index,1)  
+    }
+})
+body=JSON.stringify(body)
+$done({body})
